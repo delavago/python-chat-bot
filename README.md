@@ -1,4 +1,4 @@
-# apl-liz-text-to-speech
+# chat bot
 This application may use `pipenv` to run
 
 ## Install pipenv
