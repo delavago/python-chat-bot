@@ -1,0 +1,53 @@
+<MainWindow>:
+    name: "mm"
+
+    BoxLayout:
+        orientation: "vertical"
+        size:root.width, root.height
+
+        padding: 5
+
+        Image:
+            source: 'chat_bot.png'
+
+        GridLayout:
+            cols:1
+
+            Button:
+                text: "bot Chatbot"
+                on_release:
+                    app.root.current = "sw"
+                    root.manager.transition.direction = "left"
+
+
+<SecondWindow>:
+    name: "sw"
+
+    print_label: print_label
+
+    BoxLayout:
+        orientation: "vertical"
+        size:root.width, root.height
+        padding: 5
+
+        Image:
+            source: 'chat_bot.png'
+
+        Label:
+            id: print_label
+            text: "Press the Button Below to Ask Me a Question"
+
+        Button:
+            text: "CHAT"
+            on_release:
+                root.chat()
+
+        Button:
+            text: "Return to Main Manu"
+            on_release:
+                app.root.current = "mm"
+                root.manager.transition.direction = "right"
+
+
+
+
