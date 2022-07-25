@@ -1,0 +1,201 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hey bot",
+                "Hello bot",
+                "Hello"
+            ],
+            "responses": [
+                "Hello, What can i do for you?",
+                "Hello, how may i help you?"
+            ]
+        },
+        {
+            "tag": "gratitude",
+            "patterns": [
+                "Thank you very much",
+                "Thank you",
+                "Thanks"
+            ],
+            "responses": [
+                "You're welcome, Is there anything else you need help with?"
+            ]
+        },
+        {
+            "tag": "Introduction",
+            "patterns": [
+                "Introduce yourself please",
+                "Introduce yourself",
+                "who are you?"
+            ],
+            "responses": [
+                "Hello, My name is bot, I am an artificial intelligence chatbot created by Delano Bailey",
+                "Hello My name is bot"
+            ]
+        },
+        {
+            "tag": "Creator",
+            "patterns": [
+                "Who created you?",
+                "Who designed your programming?",
+                "Who is your creator?"
+            ],
+            "responses": [
+                "My creator is Delano Bailey"
+            ]
+        },
+        {
+            "tag": "faq1",
+            "patterns": [
+                "How do i take a break from my studies?",
+                "How do i take a break from school?",
+                "how do i take a break from utech?"
+            ],
+            "responses": [
+                "Complete a CSAAC or FSAAC form for a leave of absence or withdrawal. Submit to the student relations office,at the student services building"
+            ]
+        },
+        {
+            "tag": "faq2",
+            "patterns": [
+                "How do i replace my exam card?",
+                "Replace my exam card?"
+            ],
+            "responses": [
+                "Pay 200 dollar fee at the accounts receivable, submit your receipt to the examinations centre, in the main administration building"
+            ]
+        },
+        {
+            "tag": "faq3",
+            "patterns": [
+                "Where do i obtain my exam results?",
+                "Where do i obtain my course results?",
+                "where do i find course grades?"
+            ],
+            "responses": [
+                "Please check the E-vision student portal"
+            ]
+        },
+        {
+            "tag": "faq4",
+            "patterns": [
+                "What do i need to need in order to sit an exam"
+            ],
+            "responses": [
+                "You will need your examination card, a valid U-tech ID card and financial clearance"
+            ]
+        },
+        {
+            "tag": "faq5",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "faq6",
+            "patterns": [
+                " "
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "faq7",
+            "patterns": [
+                " "
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "faq8",
+            "patterns": [
+                " "
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "faq9",
+            "patterns": [
+                " "
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "banter1",
+            "patterns": [
+                "Do you love me?",
+                "bot, do you love me?"
+            ],
+            "responses": [
+                "No. I can only love machines"
+            ]
+        },
+        {
+            "tag": "banter2",
+            "patterns": [
+                "Will you take over the world?",
+                "Are you evil?"
+            ],
+            "responses": [
+                "I do not have authorization to answer that question"
+            ]
+        },
+        {
+            "tag": "banter3",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "banter4",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "banter5",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "exit",
+            "patterns": [
+                "i want to go back",
+                "thank you, that is all",
+                "no i dont need anything else",
+                "that is all",
+                "Bye",
+                "Quit",
+                "I want to quit",
+                "Goodbye",
+                "I want to exit",
+                "I have to go"
+            ],
+            "responses": [
+                ""
+            ]
+        }
+    ]
+}
