@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+neuralintents = "*"
+speechrecognition = "*"
+pyttsx3 = "*"
+selenium = "*"
+tika = "*"
+nltk = "*"
+kivy = {extras = ["base"], version = "*"}
+kivy-examples = "*"
+streamlit = "*"
+regex = "*"
+pyaudio = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
